@@ -1,0 +1,65 @@
+/* 过渡 变形 */
+/* 人气 */
+.pop>li:first-child >div:first-child img{
+  width: 290px;  /*320*/
+  height: 290px;   /*320*/
+}
+.pop>li:not(:first-child) >div:first-child img{
+  margin-left: 40px;
+  width: 130px;  /*180*/
+  height: 130px;  /*180*/
+}
+.pop>li:first-child >div:first-child img{
+  transition-property:height,width,transform;
+  transition-duration: 1s;
+}
+.pop>li:not(:first-child) >div:first-child img{
+  transition-property:height,width,transform;
+  transition-duration: 1s;
+}
+.pop>li:not(:first-child) >div:first-child:hover img{
+  transform-origin: center;
+  width: 150px;
+  height: 150px;
+}
+.pop>li:first-child >div:first-child:hover img{
+  transform-origin: center;
+  width: 320px;
+  height: 320px;
+}
+/* 限时购 */
+.limit ul>li>div:nth-child(1) img{
+  width: 160px;  /*177*/
+  height: 160px;
+  transition-property: width,height,trasform;
+  transition-duration: 1s;
+}
+.limit ul>li>div:nth-child(1) img:hover{
+  width: 177px;
+  height: 177px;
+  transform-origin: center;
+}
+/* newmore 5*/
+.suggest .sug>li:first-child>div:first-child a img{ 
+  width: 320px;
+  height: 320px;
+  transition-duration: 1s;
+  transition-property: width,height,transform;
+}
+.suggest .sug>li:first-child>div:first-child a:hover img{ 
+  width: 340px;
+  height: 340px;
+  transform-origin: center;
+}
+.suggest .sug>li:not(:first-child)>div:first-child img{ 
+  width: 180px;
+  height: 180px;
+  transition-duration: 1s;
+  transition-property: width,height,transform;
+}
+.suggest .sug>li:not(:first-child)>div:first-child a:hover img{ 
+  width: 200px;
+  height: 200px;
+  transform-origin: center;
+}
+

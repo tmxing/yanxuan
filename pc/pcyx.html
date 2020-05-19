@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pcyx</title>
+  <link rel="stylesheet" href="http://at.alicdn.com/t/font_1748692_p4dvi426k6q.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/transition.css">
+  <link rel="stylesheet" href="./css/commen.css">
+  <script  type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/fixed.js"></script>
+  <script>
+    function openwindow(){
+      $(".log").css("display","block");
+    }
+    function closewindow(){
+      $(".log").css("display","none");
+    }
+  </script>
+</head>
+<body>
+  <!-- 模态框 -->
+  <div class="log">
+    <div class="login">
+      <div class="c">
+        <div id="close" onclick="closewindow()"></div>
+      </div>
+      <div><span>手机号登录</span><span>邮箱登录</span></div>
+      <div>
+        <div><a href="javascript:void(0)">使用密码验证登录</a></div>
+        <div><span class="iconfont icon-shouji"></span><input type="text" id="phonenum" placeholder="请输入手机号"> </div>
+        <div><input type="text" id="msg" placeholder="请输入短信验证码"><span>获取验证码</span></div>
+        <div>手机号快捷登录</div>
+        <div>
+          <input type="checkbox" value="yes"><span class="textcolor">我同意</span><span>《服务条款》</span><span  class="textcolor">和</span><span>《网易隐私政策》</span>
+        </div>
+      </div>
+      <div class="loginOther">
+        <div class="other">
+          <span class="iconfont icon-weixin1"></span>
+          <span class="iconfont icon-qq"></span>
+          <span class="iconfont icon-weibo1"></span>
+          <span class="iconfont icon-wangyi"></span>
+          <span><a href="javascript:void(0)">遇到问题？</a></span>
+        </div>
+      </div>
+     </div>
+    </div>
+  <!-- 1.头行  -->
+  <div class="top">
+    <div class="wrapper">
+      <ul class="top_sub">
+        <li>
+          <span onclick="openwindow()"><a href="javascript:void(0)" >登录/注册</a></span>
+        </li>
+        <li>
+          <span><a href="javascript:void(0)">我的订单</a></span>
+        </li>
+        <li>
+          <span><a href="javascript:void(0)">会员</a></span>
+        </li>
+        <li>
+          <span><a href="javascript:void(0)">甄选家</a></span>
+        </li>
+        <li>
+          <a href="javascript:void(0)">企业采购&nbsp;∨</a>
+          <ul class="top_son">
+            <li><span><a href="javascript:void(0)">企业卡</a></span></li>
+            <li><span><a href="javascript:void(0)">会员卡</a></span></li>
+            <li><span><a href="javascript:void(0)">新天地</a></span></li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)">客户服务&nbsp;∨</a>
+          <ul class="top_son">
+            <li><span><a href="javascript:void(0)">在线客服</a></span></li>
+            <li><span><a href="javascript:void(0)">帮助中心</a></span></li>
+            <li><span><a href="javascript:void(0)">开放平台</a></span></li>
+          </ul>
+        </li>
+        <li><span><a href="javascript:void(0)">App</a></span></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 2.搜索框 -->
+  <div class="search">
+    <div class="wrapper">
+      <a href="javascript:void(0)"><span class="logo"></span></a>
+      <div  class="search_right">
+        <!--搜索框  -->
+        <div  class="left search_box">
+          <!-- input -->
+          <div>
+            <span class="tu"></span>
+            <input type="search" placeholder="告别啃食尴尬，秘制无骨凤爪">
+            <span class="tu2">搜索</span>
+          </div>
+          <!-- 文字 -->
+          <div class="keywords">
+            <ul>
+              <li><a href="javascript:void(0)">返场每满125减20</a></li>
+              <li><a href="javascript:void(0)">杭州市学生保供口罩</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- /搜索框  -->
+        <!-- 购物车 -->
+        <div class="right shopcar">
+          <span></span>
+          <span>购物车</span>
+          <span>0</span>
+        </div>
+        <!-- /购物车 -->
+      </div>
+    </div>
+  </div>
+  <!-- 3导航栏 -->
+  <div class="nav">
+    <div class="wrapper">
+        <ul class="son">
+          <li id="fixedImg">
+          </li>
+          <li>
+            <a href="javascript:void(0)">首页</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">居家生活</a>
+            <div class="inner">
+              <ul class="innerUL">
+                <li>
+                  <ul>
+                    <li><span>口碑好物</span></li>
+                    <li><a href="javascript:void(0);"><img src="./images/haowu.webp" alt=""/><span>口碑好物</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/haowu2.webp" alt=""/><span>抑菌防螨</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/haowu3.webp" alt=""/><span>春夏好物</span></a></li>
+                    <li><a href="javascript:void(0);"><img src="./images/haowu4.webp" alt=""/><span>主题床品</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/haowu5.webp" alt=""/><span>北欧原木</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/haowu6.webp" alt=""/><span>餐厨爆款清单</span></a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><span>床上用品</span></li>
+                    <li><a href="javascript:void(0);"><img src="./images/cs1.webp" alt=""/><span>床品件套</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/cs2.webp" alt=""/><span>被枕盖毯</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/cs3.webp" alt=""/><span>床垫床褥</span></a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><span>家具饰品</span></li>
+                    <li><a href="javascript:void(0);"><img src="./images/jj1.webp" alt=""/><span>抱枕靠垫</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/jj2.webp" alt=""/><span>家饰</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/jj3.webp" alt=""/><span>居家布艺</span></a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><span>家具安装</span></li>
+                    <li><a href="javascript:void(0);"><img src="./images/jju1.webp" alt=""/><span>客餐厅家具</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/jju2.webp" alt=""/><span>卧室家具</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/jju3.webp" alt=""/><span>办公书房家具</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/jjaz.webp" alt=""/><span>灯具</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/jju4.webp" alt=""/><span>小件家具</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/jju5.webp" alt=""/><span>地毯窗帘</span></a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><span>收纳日用</span></li>
+                    <li><a href="javascript:void(0);"><img src="./images/sn1.webp" alt=""/><span>口碑好物</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/sn2.webp" alt=""/><span>收纳</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/sn3.webp" alt=""/><span>晾晒除味</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/sn3.webp" alt=""/><span>毛巾浴巾</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/sn4.webp" alt=""/><span>居家拖鞋</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/sn5.webp" alt=""/><span>家庭医疗</span></a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><span>厨房用品</span></li>
+                    <li><a href="javascript:void(0);"><img src="./images/cj1.webp" alt=""/><span>锅具</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/cj2.webp" alt=""/><span>餐厨配件</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/cj3.webp" alt=""/><span>刀剪砧版</span></a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><span>餐具水具</span></li>
+                    <li><a href="javascript:void(0);"><img src="./images/canj1.webp" alt=""/><span>餐具</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/canj2.webp" alt=""/><span>水具杯具</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/canj3.webp" alt=""/><span>茶咖酒具</span></a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><span>宠物生活</span></li>
+                    <li><a href="javascript:void(0);"><img src="./images/cw1.webp" alt=""/><span>宠物食品</span></a></li>
+                    <li><a href="javascript:;"><img src="./images/cw2.webp" alt=""/><span>宠物用品</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0)">服饰鞋包</a>
+            <div class="inner">
+
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0)">美食酒水</a>
+            <div class="inner"></div>
+          </li>
+          <li>
+            <a href="javascript:void(0)">个护清洁</a>
+            <div class="inner"></div>
+          </li>
+          <li>
+            <a href="javascript:void(0)">母婴亲子</a>
+            <div class="inner"></div>
+          </li>
+          <li>
+            <a href="javascript:void(0)">运动旅行</a>
+            <div class="inner"></div>
+          </li>
+          <li>
+            <a href="javascript:void(0)">数码家电</a>
+            <div class="inner"></div>
+          </li>
+          <li>
+            <a href="javascript:void(0)">全球特色</a>
+            <div class="inner"></div>
+          </li>
+          <li>
+            <a href="javascript:void(0)">为你严选</a>
+            <div class="inner"></div>
+          </li>
+          <li>
+            <a href="javascript:void(0)">众筹</a>
+            <div class="inner"></div>
+          </li>
+        </ul>
+    </div>
+  </div>
+  <!-- 4.图片 -->
+  <div class="pic"></div>
+  <!-- 5.优惠券 -->
+  <div class="quan">
+    <div class="wrapper">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 6. 新品首发-->
+  <div class="new">
+    <div class="wrapper">
+      <span class="BigTitle">
+        新品首发
+      </span>&nbsp;&nbsp;
+      <span class="SmallTitle">
+        为你寻觅世间好物
+      </span>
+      <ul class="newthing">
+          <li>
+            <div></div>
+            <div>
+              <div class="newword">
+                <span>可用券<br>4.12-4.15</span><span>每次满150-25&nbsp;上不封顶</span>
+              </div>
+              <div class="newword2">
+                <a href="javascript:void(0)">专业物资生产，一次性医用口罩</a>
+              </div>
+              <div class="newword3">￥29</div>
+            </div>
+          </li>
+          <li>
+            <div></div>
+            <div>
+              <div class="newword">
+                <span>可用券<br>4.12-4.15</span><span>每次满150-25&nbsp;上不封顶</span>
+              </div>
+              <div class="newword2">
+                <a href="javascript:void(0)">自然情侣款，女士空气棉轻盈牛仔裤</a>
+              </div>
+              <div class="newword3">￥199</div>
+            </div>
+          </li>
+          <li>
+            <div></div>
+            <div>
+              <div class="newword">
+                <span>可用券<br>4.12-4.15</span><span>每次满150-25&nbsp;上不封顶</span>
+              </div>
+              <div class="newword2">
+                <a href="javascript:void(0)">两款可选活颜修护水/莹润面霜50ml</a>
+              </div>
+              <div class="newword3">￥139</div>
+            </div>
+          </li>
+          <li>
+            <div></div>
+            <div>
+              <div class="newword">
+                <span>可用券<br>4.12-4.15</span><span>每次满150-25&nbsp;上不封顶</span>
+              </div>
+              <div class="newword2">
+                <a href="javascript:void(0)">airfree柔顺感卫生巾日用组合装82片/134片</a>
+              </div>
+              <div class="newword3">￥79.9</div>
+            </div>
+          </li>
+      </ul>
+        <!-- 热销榜 -->
+      <div class="hot">
+        <ul>
+            <li>
+                <div><span>－&nbsp;热销榜&nbsp;－</span></div>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont icon-bangdan"></span><span>全站<br/>热销榜</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont icon-chuang"></span><span>居家<br/>生活榜</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont icon-xizhuang-copy-copy"></span><span>服饰<br/>鞋包榜</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont icon-jiupingxian"></span><span>美食<br/>酒水榜</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                  <span class="iconfont icon-shuma-zhuji"></span><span>数码<br/>家电榜</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                  <span class="iconfont icon-maojin"></span><span>个护<br/>清洁榜</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont icon-hanglixiang"></span><span>运动<br/>旅行榜</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                  <span class="iconfont icon-yingerchezulin"></span><span>母婴<br/>亲子榜</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="iconfont icon-liwuhejiangpinlibaoxianxing"></span><span>全球<br/>特色榜</span>
+                </a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ <!-- 7. 人气-->
+ <div class="popular">
+   <div class="wrapper">
+      <div class="text">
+        <span class="BigTitle">人气推荐</span>
+        <span class="SmallTitle"><a href="./newmore.html"  class="SmallTitle">编辑推荐</a></span>
+        <span class="SmallTitle"><a href="./newmore.html"  class="SmallTitle">热销总榜</a></span>
+        <span><a href="./newmore.html"  class="SmallTitle">更多&nbsp;></a></span>
+      </div>
+      <ul class="pop">
+          <li>
+            <div><img src="./images/p1.webp" alt=""></div>
+            <div>
+              <div class="newword">
+                <span>411狂欢价<br>￥352</span><span>仅剩3天</span>
+              </div>
+              <div class="newword2">
+                <a href="javascript:void(0)">新贵轻奢8小时，60支锦眠贡缎四件套</a>
+              </div>
+              <div class="newword3">￥98</div>
+            </div>
+          </li>
+          <li>
+            <div><img src="./images/p2.webp" alt=""></div>
+            <div>
+              <div class="newword">
+                <span>411狂欢价<br>￥352</span><span>仅剩3天</span>
+              </div>
+              <div class="newword2">
+                <a href="javascript:void(0)">新贵轻奢8小时，60支锦眠贡缎四件套</a>
+              </div>
+              <div class="newword3">￥98</div>
+            </div>
+          </li>
+          <li>
+            <div><img src="./images/p3.webp" alt=""></div>
+            <div>
+              <div class="newword">
+                <span>411狂欢价<br>￥352</span><span>仅剩3天</span>
+              </div>
+              <div class="newword2">
+                <a href="javascript:void(0)">新贵轻奢8小时，60支锦眠贡缎四件套</a>
+              </div>
+              <div class="newword3">￥98</div>
+            </div>
+          </li>
+          <li>
+            <div><img src="./images/p4.webp" alt=""></div>
+            <div>
+              <div class="newword">
+                <span>411狂欢价<br>￥352</span><span>仅剩3天</span>
+              </div>
+              <div class="newword2">
+                <a href="javascript:void(0)">新贵轻奢8小时，60支锦眠贡缎四件套</a>
+              </div>
+              <div class="newword3">￥98</div>
+            </div>
+          </li>
+          <li>
+            <div><img src="./images/p5.webp" alt=""></div>
+            <div>
+              <div class="newword">
+                <span>411狂欢价<br>￥352</span><span>仅剩3天</span>
+              </div>
+              <div class="newword2">
+                <a href="javascript:void(0)">新贵轻奢8小时，60支锦眠贡缎四件套</a>
+              </div>
+              <div class="newword3">￥98</div>
+            </div>
+          </li>
+          <li>
+            <div><img src="./images/p6.webp" alt=""></div>
+            <div>
+              <div class="newword">
+                <span>411狂欢价<br>￥352</span><span>仅剩3天</span>
+              </div>
+              <div class="newword2">
+                <a href="javascript:void(0)">新贵轻奢8小时，60支锦眠贡缎四件套</a>
+              </div>
+              <div class="newword3">￥98</div>
+            </div>
+          </li>
+          <li>
+            <div><img src="./images/p7.webp" alt=""></div>
+            <div>
+              <div class="newword">
+                <span>411狂欢价<br>￥352</span><span>仅剩3天</span>
+              </div>
+              <div class="newword2">
+                <a href="javascript:void(0)">新贵轻奢8小时，60支锦眠贡缎四件套</a>
+              </div>
+              <div class="newword3">￥98</div>
+            </div>
+          </li>
+      </ul>
+    </div>
+</div>
+  <!-- 8.福利 -->
+ <div class="benifits">
+  <div class="wrapper">
+    <div class="BigTitle"><br><br>福利社</div>
+    <ul>
+      <li></li>
+      <li>
+        <div class="SmallTitle">
+          <div>今日特价</div>
+          <div><a href="javascript:void(0)">查看全部&nbsp;></a></div>
+        </div>
+        <ul class="benifitsChild">
+          <li>
+            <div><img src="./images/b2.webp" alt=""></div>
+            <div>
+              <a href="javascript:void(0)">清透无痕不花妆 日本SPF50+防晒喷雾</a>
+              <div>￥98</div>
+              <a href="javascript:void(0)"><input type="submit" value="立即购买"></a>
+            </div>
+          </li>
+          <li>
+            <div><img src="./images/b3.webp" alt=""></div>
+            <div>
+              <a href="javascript:void(0)">洗发般简单染发 日本多彩泡泡染发乳110ml</a>
+              <div>￥72</div>
+              <a href="javascript:void(0)"><input type="submit" value="立即购买"></a>
+            </div>
+          </li>
+          <li>
+            <div><img src="./images/b4.webp" alt=""></div>
+            <div>
+              <a href="javascript:void(0)">甜品级健身零食 美国蛋白代餐能量棒</a>
+              <div>￥129</div>
+              <a href="javascript:void(0)"><input type="submit" value="立即购买"></a>
+            </div>
+          </li>
+          <li>
+            <div><img src="./images/b5.webp" alt=""></div>
+            <div>
+              <a href="javascript:void(0)">24小时抗菌防臭 日本复合酵素洗衣液 2kg</a>
+              <div>￥99</div>
+              <a href="javascript:void(0)"><input type="submit" value="立即购买"></a>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div>
+          <div class="SmallTitle">
+            <div>量贩囤货</div>
+            <div><a href="javascript:void(0)">全部&nbsp;></a></div>
+          </div>
+          <div>
+            <ul class="tunhuo">
+              <li>
+                <div><img src="./images/b6.webp" alt=""></div>
+                <div>
+                  <a href="javascript:void(0)">清透无痕不花妆 日本SPF50+防晒喷雾</a>
+                  <div>￥100</div>
+                </div>
+              </li>
+              <li>
+                <div><img src="./images/b7.webp" alt=""></div>
+                <div>
+                  <a href="javascript:void(0)">三味演义冻干方便面 12盒</a>
+                  <div>￥79</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <div class="SmallTitle">
+            <div>今日买赠</div>
+            <div><a href="javascript:void(0)">全部&nbsp;></a></div>
+          </div>
+          <div>
+            <ul class="maizeng">
+              <li>
+                <div><img src="./images/b8.webp" alt=""></div>
+                <div>
+                  <a href="javascript:void(0)">扫地不用亲自动手，扫拖两用机器人</a>
+                  <div>￥2999</div>
+                </div>
+              </li>
+              <li>
+                <div><img src="./images/b9.webp" alt=""></div>
+                <div>
+                  <a href="javascript:void(0)">超人气爆款断货王，智能马桶盖经典版</a>
+                  <div>￥1399</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 9.生活 -->
+<div class="same life">
+  <div class="wrapper">
+    <div class="Title">
+      <div class="BigTitle">居家生活</div>
+      <div>
+        <ul class="nav">
+          <li><a href="javascript:void(0)">口碑好物</a></li>
+          <li><a href="javascript:void(0)">主题床品</a></li>
+          <li><a href="javascript:void(0)">抑菌防螨</a></li>
+          <li><a href="javascript:void(0)">春夏好物</a></li>
+          <li><a href="javascript:void(0)">北欧原木</a></li>
+          <li><a href="javascript:void(0)">厨具爆款清单</a></li>
+          <li><a href="javascript:void(0)">床品件套</a></li>
+          <li><a href="javascript:void(0)">查看更多&nbsp;></a></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="ye">
+      <li><a href="javascript:void(0)"><img src="./images/life1.webp" alt=""></a></li>
+      <li>
+        <div><img src="./images/life2.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">专业物资生产，一次性医用口罩</a></div>
+          <div class="SmallTitle"><span>￥29</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/life3.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">青春永驻，男士经典牛皮小白鞋</a></div>
+          <div class="SmallTitle"><span>¥399</span>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/life4.webp" alt=""></div>
+        <div>
+          <span class="SmallTitle">春夏特惠</span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">女士天丝棉柔中腰小脚裤</a></div>
+          <div class="SmallTitle"><span>¥129</span><span>¥199</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/life5.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">下班就能运动，男士四面弹牛仔裤</a></div>
+          <div class="SmallTitle"><span>￥299</span></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 10.限时购 -->
+<div class="limit">
+  <div class="wrapper">
+    <div class="Title">
+      <div class="BigTitle">限时购</div>
+      <div class="SmallTitle"><a href="javascript:void(0)">更多&nbsp;></a></div>
+    </div>
+    <ul>
+      <li><img src="./images/ppp.webp" alt=""></li>
+      <li>
+        <div><img src="./images/xsgou.webp" alt=""></div>
+        <div>
+          <div>茶水与叶轻松隔离 茶水分离耐热玻璃杯</div>
+          <div>茶水分隔 茶汤浓度可控</div>
+          <div>剩余数量</div>
+          <div><span>¥89</span><span>¥119</span></div>
+          <div><a href="javascript:void(0)"><input type="submit" value="立即购买"></a></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/xsgou2.webp" alt=""></div>
+        <div>
+          <div>简约日式实木落地镜</div>
+          <div>无框设计，简约自然</div>
+          <div>剩余数量</div>
+          <div><span>¥185</span><span>¥209</span></div>
+          <div><a href="javascript:void(0)"><input type="submit" value="立即购买"></a></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/xsgou3.webp" alt=""></div>
+        <div>
+          <div>进口EdgewellI刀片 破晓手动剃须刀礼盒装</div>
+          <div>礼盒包装，剃护一体更安心</div>
+          <div>剩余数量</div>
+          <div><span>¥56.9</span><span>¥69</span></div>
+          <div><a href="javascript:void(0)"><input type="submit" value="立即购买"></a></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/xsgou4.webp" alt=""></div>
+        <div>
+          <div>非油炸，烘焙型奇亚籽水果燕麦片 800克</div>
+          <div>含5%奇亚籽，缤纷果干</div>
+          <div>剩余数量</div>
+          <div><span>¥49</span><span>¥52</span></div>
+          <div><a href="javascript:void(0)"><input type="submit" value="立即购买"></a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 17.服饰鞋包 -->
+<div class="same package ">
+  <div class="wrapper">
+    <div class="Title">
+      <div class="BigTitle">服饰鞋包</div>
+      <div>
+        <ul class="nav">
+        <li><a href="javascript:void(0)">热销爆款</a></li>
+        <li><a href="javascript:void(0)">好物上新/卫衣</a></li>
+        <li><a href="javascript:void(0)">抄底特惠</a></li>
+        <li><a href="javascript:void(0)">男士衬衫</a></li>
+        <li><a href="javascript:void(0)">男士针织衫/卫衣</a></li>
+        <li><a href="javascript:void(0)">男士外套</a></li>
+        <li><a href="javascript:void(0)">男士牛仔</a></li>
+        <li><a href="javascript:void(0)">查看更多&nbsp;></a></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="ye">
+      <li><a href="javascript:void(0)"><img src="./images/package1.webp" alt=""></a></li>
+      <li>
+        <div><img src="./images/package2.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">可甜可帅，女士基础弹力紧身打底裤</a></div>
+          <div class="SmallTitle"><span>¥99.9</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/package3.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">青春永驻，男士经典牛皮小白鞋</a></div>
+          <div class="SmallTitle"><span>¥399</span>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/package4.webp" alt=""></div>
+        <div>
+          <span class="SmallTitle">春夏特惠</span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">女士天丝棉柔中腰小脚裤</a></div>
+          <div class="SmallTitle"><span>¥129</span><span>¥199</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/package5.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">下班就能运动，男士四面弹牛仔裤</a></div>
+          <div class="SmallTitle"><span>￥299</span></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 16.美食酒水 -->
+<div class=" same wine">
+  <div class="wrapper">
+    <div class="Title">
+      <div class="BigTitle">美食酒水</div>
+      <div>
+        <ul class="nav">
+        <li><a href="javascript:void(0)">员工精选</a></li>
+        <li><a href="javascript:void(0)">美食上新</a></li>
+        <li><a href="javascript:void(0)">大家都在买</a></li>
+        <li><a href="javascript:void(0)">饼干糕点</a></li>
+        <li><a href="javascript:void(0)">小食糖巧</a></li>
+        <li><a href="javascript:void(0)">肉类零食</a></li>
+        <li><a href="javascript:void(0)">坚果炒货</a></li>
+        <li><a href="javascript:void(0)">查看更多&nbsp;></a></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="ye">
+      <li><a href="javascript:void(0)"><img src="./images/wine1.webp" alt=""></a></li>
+      <li>
+        <div><img src="./images/wine2.webp" alt=""></div>
+        <div>
+          <span  class="SmallTitle">加价购</span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">每日坚果谷物燕麦片</a></div>
+          <div class="SmallTitle"><span>￥58</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/wine3.webp" alt=""></div>
+        <div>
+          <span  class="SmallTitle">满159减20</span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">新鲜燕窝仙女喝，30%即食燕窝&nbsp;70克*6瓶</a></div>
+          <div class="SmallTitle"><span>¥258</span>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/wine4.webp" alt=""></div>
+        <div>
+          <span class="SmallTitle">限时购</span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">非油炸，烘焙型奇亚籽水果燕麦片800克</a></div>
+          <div class="SmallTitle"><span>¥49</span><span>¥52</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/wine5.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">大丈夫冻干牛肉面</a></div>
+          <div class="SmallTitle"><span>¥28.5</span></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 15.个护清洁 -->
+<div class=" same oneclean">
+  <div class="wrapper">
+    <div class="Title">
+      <div class="BigTitle">个护清洁</div>
+      <div>
+        <ul class="nav">
+        <li><a href="javascript:void(0)">爆款榜单</a></li>
+        <li><a href="javascript:void(0)">新品尝鲜</a></li>
+        <li><a href="javascript:void(0)">基础护肤</a></li>
+        <li><a href="javascript:void(0)">卸妆洁面</a></li>
+        <li><a href="javascript:void(0)">护肤工具</a></li>
+        <li><a href="javascript:void(0)">洗发护发</a></li>
+        <li><a href="javascript:void(0)">身体护理</a></li>
+        <li><a href="javascript:void(0)">查看更多&nbsp;></a></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="ye">
+      <li><a href="javascript:void(0)"><img src="./images/oneclean1.webp" alt=""></a></li>
+      <li>
+        <div><img src="./images/oneclean2.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">远红外线负离子液晶控温直发夹板</a></div>
+          <div class="SmallTitle"><span>¥219</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/oneclean3.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">春风亲亲鸭吸吮时按摩器</a></div>
+          <div class="SmallTitle"><span>¥349</span>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/oneclean4.webp" alt=""></div>
+        <div>
+          <span class="SmallTitle"></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">分润细腻&nbsp;活颜保湿乳&nbsp;(滋润版)195ml</a></div>
+          <div class="SmallTitle"><span>¥159</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/oneclean5.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">笑容由“齿”绽放 沁爽舒缓/洁白炫彩牙膏</a></div>
+          <div class="SmallTitle"><span>¥14.9</span></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 11.母婴亲子 -->
+<div class=" same parchi">
+  <div class="wrapper">
+    <div class="Title">
+      <div class="BigTitle">母婴亲子</div>
+      <div>
+        <ul class="nav">
+        <li><a href="javascript:void(0)">爆款指南</a></li>
+        <li><a href="javascript:void(0)">春夏换新</a></li>
+        <li><a href="javascript:void(0)">宅家好物</a></li>
+        <li><a href="javascript:void(0)">清洁防护</a></li>
+        <li><a href="javascript:void(0)">卫衣/毛衫</a></li>
+        <li><a href="javascript:void(0)">T恤/polo/衬衫</a></li>
+        <li><a href="javascript:void(0)">外套/套装</a></li>
+        <li><a href="javascript:void(0)">查看更多&nbsp;></a></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="ye">
+      <li><a href="javascript:void(0)"><img src="./images/qz1.webp" alt=""></a></li>
+      <li>
+        <div><img src="./images/qz2.webp" alt=""></div>
+        <div>
+          <span class="SmallTitle">特价</span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">薄至2.5mm,海量鲸吸婴儿纸尿裤尿不湿</a></div>
+          <div class="SmallTitle"><span>¥52</span><span>¥69</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/qz3.webp" alt=""></div>
+        <div>
+          <span class="SmallTitle">满折</span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">稳定护足，小海马儿童运动鞋&nbsp;25-32码</a></div>
+          <div class="SmallTitle"><span>¥99.9</span>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/qz3.webp" alt=""></div>
+        <div>
+          <span class="SmallTitle">春夏特惠</span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">黑科技护脊，儿童前边肩负书包&nbsp;1-3年级</a></div>
+          <div class="SmallTitle"><span>¥169</span><span>¥299</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/qz5.webp" alt=""></div>
+        <div>
+          <span class="SmallTitle">奥莱特卖</span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">拯救开奶吸乳难，智能双边电动吸奶器</a></div>
+          <div class="SmallTitle"><span>¥29.4</span><span>¥49</span></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 12.运动旅行 -->
+<div class=" same travel">
+  <div class="wrapper">
+    <div class="Title">
+      <div class="BigTitle">运动旅行</div>
+      <div>
+        <ul class="nav">
+        <li><a href="javascript:void(0)">男士运动T恤</a></li>
+        <li><a href="javascript:void(0)">男士运动外套/卫衣</a></li>
+        <li><a href="javascript:void(0)">男士运动裤装</a></li>
+        <li><a href="javascript:void(0)">男士户外服装</a></li>
+        <li><a href="javascript:void(0)">女士运动T恤</a></li>
+        <li><a href="javascript:void(0)">女士运动外套/卫衣</a></li>
+        <li><a href="javascript:void(0)">女士运动裤装</a></li>
+        <li><a href="javascript:void(0)">查看更多&nbsp;></a></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="ye">
+      <li><a href="javascript:void(0)"><img src="./images/travel1.webp" alt=""></a></li>
+      <li>
+        <div><img src="./images/travel2.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">薄至2.5mm,海量鲸吸婴儿纸尿裤尿不湿</a></div>
+          <div class="SmallTitle"><span>¥52</span><span>¥69</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/traver3.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">稳定护足，小海马儿童运动鞋&nbsp;25-32码</a></div>
+          <div class="SmallTitle"><span>¥99.9</span>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/traver4.webp" alt=""></div>
+        <div>
+          <span class="SmallTitle">限时购</span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">黑科技护脊，儿童前边肩负书包&nbsp;1-3年级</a></div>
+          <div class="SmallTitle"><span>¥169</span><span>¥299</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/travel5.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">拯救开奶吸乳难，智能双边电动吸奶器</a></div>
+          <div class="SmallTitle"><span>¥29.4</span><span>¥49</span></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 13.数码家电 -->
+<div class=" same homeApplacations">
+  <div class="wrapper">
+    <div class="Title">
+      <div class="BigTitle">数码家电</div>
+      <div>
+        <ul class="nav">
+        <li><a href="javascript:void(0)">当季热销</a></li>
+        <li><a href="javascript:void(0)">新品首发/卫衣</a></li>
+        <li><a href="javascript:void(0)">甄选爆款</a></li>
+        <li><a href="javascript:void(0)">清洁电器</a></li>
+        <li><a href="javascript:void(0)">两季电器</a></li>
+        <li><a href="javascript:void(0)">衣物护理/卫衣</a></li>
+        <li><a href="javascript:void(0)">空气调节</a></li>
+        <li><a href="javascript:void(0)">查看更多&nbsp;></a></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="ye">
+      <li><a href="javascript:void(0)"><img src="./images/homeApplacations1.webp" alt=""></a></li>
+      <li>
+        <div><img src="./images/homeApplacations2.webp" alt=""></div>
+        <div>
+          <span>满赠</span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">3秒伸缩折叠，放心喝水的折叠热水</a>壶</div>
+          <div class="SmallTitle"><span>¥289</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/homeApplacations3.webp" alt=""></div>
+        <div>
+          <span>特价</span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">热豆浆鲜果汁分杯不串味 多功能破壁机</a></div>
+          <div class="SmallTitle"><span>¥519</span><span>¥699</span>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/homeApplacations4.webp" alt=""></div>
+        <div>
+          <span class="SmallTitle"></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">不易打湿地板，落地式多用超声波加湿器</a></div>
+          <div class="SmallTitle"><span>¥239</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/homeApplacations5.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">网易智造多功能声波硅胶洁面仪套装</a></div>
+          <div class="SmallTitle"><span>¥199</span></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 14.全球特色 -->
+<div class=" same special">
+  <div class="wrapper">
+    <div class="Title">
+      <div class="BigTitle">全球特色</div>
+      <div>
+        <ul class="nav">
+        <li><a href="javascript:void(0)">全球热销</a></li>
+        <li><a href="javascript:void(0)">全球防护/卫衣</a></li>
+        <li><a href="javascript:void(0)">樱花限定</a></li>
+        <li><a href="javascript:void(0)">东南亚馆</a></li>
+        <li><a href="javascript:void(0)">澳新馆</a></li>
+        <li><a href="javascript:void(0)">日韩馆/卫衣</a></li>
+        <li><a href="javascript:void(0)">欧美馆</a></li>
+        <li><a href="javascript:void(0)">查看更多&nbsp;></a></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="ye">
+      <li><a href="javascript:void(0)"><img src="./images/special1.webp" alt=""></a></li>
+      <li>
+        <div><img src="./images/spencial2.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">大英博物馆 富岳三十六景 笔帘</a></div>
+          <div class="SmallTitle"><span>¥79</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/special3.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">睡着按摩颈椎 泰国93%含量天然乳胶枕</a></div>
+          <div class="SmallTitle"><span>¥199</span>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/special4.webp" alt=""></div>
+        <div>
+          <span></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">吸走倦怠感 日本天然草本足贴4味可选20片装</a></div>
+          <div class="SmallTitle"><span>¥69</span></div>
+        </div>
+      </li>
+      <li>
+        <div><img src="./images/special5.webp" alt=""></div>
+        <div>
+          <span class="SmallTitle"></span>
+          <div class="SmallTitle descri"><a href="javascript:void(0)">大英博物馆 古代世界地图 鼠标垫</a></div>
+          <div class="SmallTitle"><span>¥69</span></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- /13-17 -->
+<!-- 18.甄选家 -->
+<div class="findhome">
+  <div class="wrapper">
+    <div class="Title">
+      <span class="BigTitle">甄选家</span>
+      <span class="SmallTitle">我们在寻找，对生活有态度的你</span>
+    </div>
+    <ul class="ye">
+      <li><a href="javascript:void(0)"><img src="./images/findhome1.webp" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="./images/findhome2.webp" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="./images/findhome3.webp" alt=""></a></li>
+    </ul>
+  </div>
+</div>
+<!-- 19.say -->
+<div class="say">
+  <div class="wrapper">
+    <div class="Title">
+      <span class="BigTitle">大家都在说</span>
+      <span class="SmallTitle">生活，没有统一标准</span>
+    </div>
+    <ul class="ye">
+      <li>
+        <a href="javascript:void(0)"><img src="./images/say1.webp" alt=""></a>
+        <div>
+          <div style="font-size:28px;">网名</div>
+          <div>内容</div>
+        </div>
+      </li>
+      <li>
+        <a href="javascript:void(0)"><img src="./images/say2.webp" alt=""></a>
+        <div>
+          <div style="font-size:28px;">网名</div>
+          <div>内容</div>
+        </div>
+      </li>
+      <li>
+        <a href="javascript:void(0)"><img src="./images/say3.webp" alt=""></a>
+        <div>
+          <div style="font-size:28px;">网名</div>
+          <div>内容</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- 20 -->
+<div class="footer2">
+  <div class="wrapper">
+    <div class="server BigTitle">
+      <div>
+        <div>客户服务</div>
+        <div class="cuss">
+          <div>
+            <br><span class="iconfont icon-kefu"></span><br><br>
+            <span><a href="javascript:void(0)">在线客服</a></span>
+          </div>
+          <div>
+            <br><span class="iconfont icon-fankui"></span><br><br>
+            <span><a href="javascript:void(0)">用户反馈</a></span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>何为严选</div>
+        <div>网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品</div>
+        <div>
+          关注我们：<span class="iconfont icon-shuaxin">
+                    </span><span class="iconfont icon-weixins"></span>
+                    <span class="iconfont icon-weibo"></span>
+        </div>
+      </div>
+      <div>
+        <div>扫码下载严选APP</div>
+        <div><img src="./images/saoma.png" alt=""></div>
+        <div>下载领大额新人红包</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="wrapper">
+    <div class="proInfo">
+      <div class="BigTitle">
+        <div>
+          <span class="iconfont icon-yi1"></span><span>网易自营电商 </span>  
+        </div>
+        <div>
+          <span class="iconfont icon-baozhang"></span><span>30天无忧退换货</span>
+        </div>
+        <div >
+          <span class="iconfont icon-baoyou"></span><span>满99元免邮费</span>
+        </div>
+        <div>
+          <span  class="iconfont icon-pinzhibaozheng"></span><span>品质保证</span>
+        </div>
+      </div>
+      <div class="SmallTitle aboutour">
+        <ul>
+          <li><a href="javascript:void(0)">关于我们</a></li>
+          <li><a href="javascript:void(0)">帮助中心</a></li>
+          <li><a href="javascript:void(0)">售后服务</a></li>
+          <li><a href="javascript:void(0)">配送与验收</a></li>
+          <li><a href="javascript:void(0)">商务合作</a></li>
+          <li><a href="javascript:void(0)">企业采购</a></li>
+          <li><a href="javascript:void(0)">开放平台</a></li>
+          <li><a href="javascript:void(0)">搜索推荐</a></li>
+          <li><a href="javascript:void(0)">友情链接</a></li>
+          <li><a href="javascript:void(0)">廉正举报</a></li>
+        </ul>
+      </div>
+      <div class="SmallTitle foodB">
+        <ul>
+         <li><a href="javascript:void(0)">食品经营许可证：JY13301080111719</a></li>
+         <li><a href="javascript:void(0)">出版物经营许可证：新出发滨字第0132号</a></li>
+         <li>妙得ICP证号：ICP 证浙B2-20160106</li>
+         <li><a href="javascript:void(0)">浙杭食药监械经营备20171029号</a></li>
+         <li><a href="javascript:void(0)">营业执照</a></li>
+         <li>网易公司版权所有 © 1997-2020</li>
+        </ul>
+      </div>
+      <div  class="SmallTitle equip">
+        <ul>
+          <li><a href="javascript:void(0)">无线电发射设备销售备案：42201919712647</a></li>
+          <li><a href="javascript:void(0)">(浙杭)网械企备字[2019]第00119号</a></li>
+          <li>（粤）网械平台备字（2019）第00004号</li>
+          <li><a href="javascript:void(0)">单用途商业预付卡备案证：330100AAC0024</a></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

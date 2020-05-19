@@ -1,0 +1,140 @@
+body{
+  background-color: #f4f4f4;
+}
+.search,.nav{
+  background-color: white;
+}
+.pic{
+  width: 1090px;
+  height: 310px;
+  background-image: url("../images/newmore.webp");
+  background-size: contain ;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+/* 推荐 */
+.Title{
+  margin: 20px 0;
+}
+.Title .wrapper{
+  display: flex;
+  line-height: 45px;
+  font-size: 34px;
+}
+.Title .wrapper span{
+  display: inline-block;
+  vertical-align: middle;
+}
+hr{
+  width: 38.4%;
+  height: 0;
+  margin-top: 22px;
+}
+.rotate{
+  width: 6px;
+  height:   6px;
+  background-color:#bebdbd ;
+  transform-origin: center;
+  transform: rotate(45deg);
+  margin: 20px 0;
+  z-index: -1;
+}
+.Title .zan{
+  font-size: 34px;
+  margin-left: 40px;
+}
+.Title .BigTitle{
+  margin-right: 40px;
+}
+/* 5 */
+.suggest .sug::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.suggest .sug>li{
+  width: 540px;
+  height: 220px;
+  float: left;
+  background-color: white;
+  margin:10px 5px 10px 0;
+}
+.suggest .sug>li:first-child{
+  padding-top: 20px;
+  box-sizing: content-box;
+  height: 432px;
+}
+.suggest .sug>li:first-child>div:first-child{
+  width: 540px;
+  height: 360px;
+}
+.suggest .sug>li:first-child>div:first-child a{ 
+  margin:0 100px;
+  width:340px;
+  height: 340px;
+  text-align: center;
+}
+.suggest .sug>li:first-child>div:last-child{
+  line-height: 40px;
+  margin-left: 20px;
+  width: 500px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.suggest .sug>li:nth-child(2){
+  margin-bottom: 2px;
+}
+.suggest .sug>li:not(:first-child){
+  display: flex;
+}
+.suggest .sug>li:not(:first-child)>div:first-child{
+  width: 200px;
+  height: 200px;
+  margin: 10px 0;
+}
+.suggest .sug>li:not(:first-child)>div:first-child{
+  width: 200px;
+  height: 200px;
+}
+.suggest .sug>li:not(:first-child)>div:last-child>div{
+  width: 280px;
+}
+.suggest .sug>li:not(:first-child)>div:last-child>div:nth-child(3){
+  margin: 10px 20px;
+  text-align: left;
+  font-size: 18px;
+}
+.suggest .sug .textcolorRed{
+  margin-left: 20px;
+}
+.suggest .sug>li:not(:first-child)>div:last-child>div:first-child{
+  margin: 40px 0 20px 20px;
+  padding: 5px 2px;
+  border: 1px solid #dddddd;
+}
+.suggest .sug>li:not(:first-child)>div:last-child>div:first-child a{
+  color: #bebdbd;
+  font-size: 14px;
+}
+.triangle_border_right{
+  width:0;
+  height:0;
+  border-width:10px 0 13px 12px;
+  border-style:solid;
+  border-color:transparent transparent transparent #dddddd;/*透明 透明 透明 灰*/
+  margin:-30px 0 10px 20px;
+  position:relative;
+}
+
+.triangle_border_right span{
+  display:block;
+  width:0;
+  height:0;
+  border-width:11px 0 11px 11px;
+  border-style:solid;
+  border-color:transparent transparent transparent white;/*透明 透明 透明 黄*/
+  position:absolute;
+  top:-13px;
+  left:-10px;
+}

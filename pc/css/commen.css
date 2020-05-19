@@ -1,0 +1,87 @@
+/* 重置样式 */
+body,ul,hr,h1,h2,h3{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+/* 通用样式 */
+a{
+  text-decoration: none;
+  font-family: "Microsoft YaHei","微软雅黑";;
+  color: #333333;
+}
+.wrapper{
+  width: 1090px;
+  margin: 0 auto;
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+.BigTitle{
+  font-size: 28px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.SmallTitle{
+  font-size: 12px;
+}
+.newword span{
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  height: 35px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.newword span:first-child,
+.newword span:last-child{
+  color: white;
+  background-color: #c0060e;
+}
+.newword span:first-child{
+  font-size: 14px;
+  border-top-right-radius: 19px;
+}
+.newword span:last-child{
+  width: 184px;
+  height: 20px;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 0;
+  background-color: #dd1a21;
+}
+.newword2{
+  width: 180px;
+  height: 40px;
+  margin:20px 40px 5px 40px;
+  text-align: center;
+}
+.newword2 a{
+  font-size: 14px;
+}
+.newword3{
+  height: 40px;
+  text-align: center;
+  color:#c0060e;
+  margin-top: 10px;
+}
+.textcolor{
+  font-size: 12px;
+  color: #aaa8a8;
+}
+.textcolorRed{
+  font-size: 24px;
+  color: #c34b4b;
+}
+.textThrough{
+  color:#aaa8a8;
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
